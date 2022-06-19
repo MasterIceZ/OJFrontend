@@ -7,6 +7,7 @@
       </transition>
       <div class="footer">
         <p v-html="website.website_footer"></p>
+		<p><a href="https://github.com/MasterIceZ/OJFrontend">Frontend</a> source by Icy</p>
         <p>Powered by <a href="https://github.com/QingdaoU/OnlineJudge">OnlineJudge</a>
           <span v-if="version">&nbsp; Version: {{ version }}</span>
         </p>
